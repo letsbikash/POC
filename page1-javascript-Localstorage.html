@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+      function passvalues()
+      {
+        var firstname=document.getElementById("txt").value;
+        localStorage.setItem("textvalue",firstname);
+        return false;
+      }
+</script>
+</head>
+<body>
+<center>
+<h1>  SECRET SANTA GAME!!! </h1>
+<h2> Let's play!!! </h2>
+<hr/>
+<form action="Page2-Javascript-Localstorage.html">
+   <input type="text" id="txt"/>
+   <input type="submit" value="click" onclick="passvalues()"/>
+   </form>
+</center>
+</body>
+</html>
